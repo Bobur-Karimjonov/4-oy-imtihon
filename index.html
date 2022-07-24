@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exam</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <h1 class="visually-hidden">Exam boshlandi</h1>
+  <div class="wrapper">
+    <!-- <div class="container"> -->
+      <ul class="users"><!-- users list starting-->
+        <template class="users__template">
+          <li class="users__item">
+            <h2 class="users__subname"></h2>
+            <div class="users__info">
+              <h3 class="users__name"></h3>
+              <span class="users__id"></span>
+            </div>
+            
+            <address class="users__address">
+              <span class="users__street"></span>
+              <span class="users__suite"></span>
+              <span class="users__city"></span>
+              <span class="users__zipcode"></span>
+              <!-- <div class="users__geo">
+                <span class="users__lat"></span>
+                <span class="users__lng"></span>
+              </div> -->
+            </address>
+            
+            <div class="users__company">
+              <span class="users__company-name"></span>
+              <span class="users__company-catchphrase"></span>
+              <span class="users__company-bs"></span>
+            </div>
+            <div class="users__links">
+              
+              <a href="tel:" class="users__phone"></a>
+              <div class="users__links-info">
+                
+                <div class="users__links-top">
+                  <a class="users__lat" href="" target="_blank"></a>
+                  <a class="users__lng" href="" target="_blank" ></a>
+                </div>
+                
+                <a class="users__email" href="mailto:"></a>
+              </div>
+            </div>
+          </li>
+        </template>
+      </ul><!-- users list end-->
+
+      <img class="wrapper__img" src="./images/loading.png" alt="fvd">
+
+      <ul class="posts"><!-- posts list starting-->
+        <template class="posts__template">
+          <li class="posts__item">
+            <h2 class="posts__title"></h2>
+            <p class="posts__text"></p>
+          </li>
+        </template>
+      </ul><!-- posts list end-->
+      
+      <ul class="comments"><!-- comments list starting-->
+        <template class="comments__template">
+          <li class="comments__item">
+            <h2 class="comments__title"></h2>
+            <a class="comments__link" href="mailto:"></a>
+            <p class="comments__text"></p>
+          </li>
+        </template>
+      </ul><!-- comments list end-->
+    
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>
